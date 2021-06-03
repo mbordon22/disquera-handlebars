@@ -1,0 +1,12 @@
+<div class="contenedor">
+    <div class="contenedor-tarjetas">
+        {{#each discos}}
+            <div class="tarjeta">
+                <h2>{{this.titulo}}</h2>
+                <img src="{{this.tapa}}">
+                <p>{{this.artista}}</p>
+                <p>{{this.lanzamiento}}</p>
+            </div>
+        {{/each}}
+    </div>
+</div>
